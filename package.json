@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "server": "node index.js",
-    "dev": "concurrently \"npm run server\" \"npm start --prefix frontend\" "
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
