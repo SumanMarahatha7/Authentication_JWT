@@ -14,6 +14,8 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+frontend
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -47,6 +49,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+frontend/
+./frontend
 jspm_packages/
 
 frontend/node_modules
