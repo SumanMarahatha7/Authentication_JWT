@@ -1,0 +1,26 @@
+$myFontNormal: 'Open Sans Condensed', sans-serif;
+$myFontStyle: 'Sacramento', cursive;
+$dark: #292b2c;
+$light: #f7f7f7;
+$primary: #0275d8;
+$danger: #d9534f;
+$success: #5cb85c;
+$info: #5bc0de;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+
+
